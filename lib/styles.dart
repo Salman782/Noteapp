@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class FontWeights {
   FontWeights._();
 
-  static const thin = FontWeight.w100;
+  static const thin = FontWeight.w200;
   static const extraLight = FontWeight.w200;
   static const light = FontWeight.w300;
   static const normal = FontWeight.normal;
