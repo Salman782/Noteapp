@@ -54,7 +54,7 @@ class _ViewNotePageState extends State<ViewNotePage> {
               padding: const EdgeInsets.only(
                   left: 24.0, right: 24.0, top: 40.0, bottom: 16),
               child: AnimatedOpacity(
-                opacity: headerShouldShow ? 1 : 0,
+                opacity: headerShouldShow ? 2 : 0,
                 duration: Duration(milliseconds: 200),
                 curve: Curves.easeIn,
                 child: Text(
