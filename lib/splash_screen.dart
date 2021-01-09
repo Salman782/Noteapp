@@ -30,7 +30,7 @@ class Splash extends StatelessWidget {
         ),),
       image: new Image.network('https://www.pngitem.com/pimgs/m/25-256356_android-notes-app-icon-hd-png-download.png'),
       loadingText: Text("Loading"),
-      photoSize: 100.0,
+      photoSize: 200.0,
       loaderColor: Colors.pink,
     );
   }
