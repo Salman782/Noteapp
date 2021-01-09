@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
             key: _scaffoldKey,
             body: Center(
               child: ConstrainedBox(
-                constraints: const BoxConstraints.tightFor(width: 720),
+                constraints: const BoxConstraints.tightFor(width: 620),
                 child: CustomScrollView(
                   slivers: <Widget>[
                     _appBar(context, filter, child),
