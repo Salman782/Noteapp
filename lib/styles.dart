@@ -6,7 +6,7 @@ class FontWeights {
 
   static const thin = FontWeight.w200;
   static const extraLight = FontWeight.w200;
-  static const light = FontWeight.w300;
+  static const light = FontWeight.w200;
   static const normal = FontWeight.normal;
   static const medium = FontWeight.w500;
   static const semiBold = FontWeight.w600;
