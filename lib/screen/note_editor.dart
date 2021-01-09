@@ -83,7 +83,7 @@ class _NoteEditorState extends State<NoteEditor> with CommandHandler {
               value: SystemUiOverlayStyle.dark.copyWith(
                 statusBarColor: _noteColor,
                 systemNavigationBarColor: _noteColor,
-                systemNavigationBarIconBrightness: Brightness.dark,
+                systemNavigationBarIconBrightness: Brightness.light,
               ),
               child: Scaffold(
                 key: _scaffoldKey,
