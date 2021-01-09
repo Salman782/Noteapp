@@ -15,7 +15,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     data: Theme.of(context).copyWith(
       textTheme: Theme.of(context).textTheme.copyWith(
         caption: Theme.of(context).textTheme.caption.copyWith(
-          color: Colors.blueAccent.shade400,
+          color: Colors.purpleAccent,
           fontWeight: FontWeights.medium,
         ),
       ),
