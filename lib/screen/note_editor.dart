@@ -167,7 +167,8 @@ class _NoteEditorState extends State<NoteEditor> with CommandHandler {
       tooltip: 'Unarchive',
       onPressed: () => _updateNoteState(uid, NoteState.unspecified),
     ),
-  ];
+];
+
 
   Widget _buildBottomAppBar(BuildContext context) => BottomAppBar(
     child: Container(
